@@ -10,7 +10,7 @@ In general, **process creation** means that the operating system creates a new p
 A new process is created by an existing process called the **parent process**, and their relationship is known as the **parent–child relationship**.
 
 ## Process Creation Using `fork()`
-In C, a new process is typically created using the `fork()` system call:
+In C, a new process is typically created using the ``fork()`` system call:
 
 
-## after fork 2 process exists one is parent one(returns child pid) another one is child process (returns 0)
+ after fork 2 process exists one is parent one(returns child pid) another one is child process (returns 0)
